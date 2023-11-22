@@ -1,0 +1,90 @@
+.teacher-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.teacher-form {
+  margin: 20px 0;
+}
+
+.teacher-form input {
+  width: calc(100% - 20px);
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  font-size: larger;
+}
+
+.teacher-form button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.teacher-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.teacher-table th,
+.teacher-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.teacher-table th {
+  background-color: #4caf50;
+  color: white;
+}
+
+.teacher-table tbody tr:hover {
+  background-color: #f5f5f5;
+}
+
+.teacher-list .update,
+.teacher-list .delete,
+.model button {
+  background-color: #45a049;
+  color: white;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.add {
+  padding: 10px 15px;
+  border-radius: 4px;
+  background-color: #4caf50;
+  color: white;
+}
+
+.add:hover {
+  background-color: #45a049;
+}
+
+.update, .delete{
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: yellow;
+  color: blue;
+  font-size: larger;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.delete{
+  background-color: red !important;
+}
+
+

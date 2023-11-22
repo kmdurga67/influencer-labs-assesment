@@ -1,0 +1,22 @@
+.mark-list-container {
+    margin: 20px;
+    font-size: larger;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.data-table th,
+.data-table td {
+    border: 1px solid #776969;
+    padding: 10px;
+    text-align: center;
+}
+
+.data-table th {
+    background-color: #9e1212;
+    color: white;
+}

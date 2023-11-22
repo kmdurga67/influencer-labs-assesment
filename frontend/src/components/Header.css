@@ -1,0 +1,33 @@
+.app-header {
+    background-color: #4CAF50;
+    padding: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  li {
+    margin: 0 15px;
+  }
+  
+  li a {
+    color: white;
+    text-decoration: none;
+    font-size: 38px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  li a:hover {
+    color: #FFD700; 
+  }
+  
+  .header{
+    margin-left: 10%;
+    margin-top: 1%;
+  }
+  

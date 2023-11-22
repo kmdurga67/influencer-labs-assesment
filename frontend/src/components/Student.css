@@ -1,0 +1,78 @@
+.student-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .student-form {
+    margin-bottom: 20px;
+  }
+  
+  .student-form input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .student-form .button-group {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .student-form button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .student-list {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .student-list th,
+  .student-list td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .student-list th {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .student-list tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .student-list tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .student-list button {
+    margin-right: 5px;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .student-list .edit {
+    background-color: #45a049;
+  }
+  
+  .student-list .delete {
+    background-color: #f44336;
+  }
+  
