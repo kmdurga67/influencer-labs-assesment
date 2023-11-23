@@ -1,22 +1,87 @@
-.mark-list-container {
-    margin: 20px;
+.marks-container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     font-size: larger;
-}
-
-.data-table {
+  }
+  
+  .marks-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .marks-form input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: larger;
+  }
+  
+  .marks-form button {
+    width: 100%;
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .marks-list {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 10px;
-}
-
-.data-table th,
-.data-table td {
-    border: 1px solid #776969;
-    padding: 10px;
-    text-align: center;
-}
-
-.data-table th {
-    background-color: #9e1212;
+    margin-top: 20px;
+  }
+  
+  .marks-list th, .marks-list td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .marks-list th {
+    background-color: #f2f2f2;
+  }
+  
+  .marks-list td {
+    background-color: #fff;
+  }
+  
+  .marks-list .actions button {
+    margin-right: 5px;
+  }
+  
+  .marks-list button {
+    background-color: #f44336;
     color: white;
-}
+    padding: 8px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .marks-list button:hover {
+    background-color: #d32f2f;
+  }
+  
+  .add {
+    background-color: #2196F3;
+  }
+  
+  .add:hover {
+    background-color: #0d47a1;
+  }
+
+  .edit{
+    background-color: #4caf50 !important;
+    padding: 12px 20px !important;
+    margin-right: 5px;
+    font-size: large;
+  }
+  
